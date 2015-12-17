@@ -1,0 +1,19 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+HID_OK                                  0x103EF
+HID_PROGRAMM_INFO                       0x19C41
+HID_PROGRAMM_BEENDEN                    0x19C42
+HID_PROGRAMM_EINSTELLUNGEN              0x19C43
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_MENU1                              0x20082
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_MFCDDRAW_DIALOG                    0x20066
+ 
+// Frame Controls (IDW_*) 

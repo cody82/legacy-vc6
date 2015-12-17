@@ -1,0 +1,284 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\xswstatistic.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\xswstatistic.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über xswstatistic"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "xswstatistic Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 1999",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_XSWSTATISTIC_DIALOG DIALOGEX 0, 0, 397, 306
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "xswstatistic"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Kills",IDC_STATIC,0,0,390,175
+    EDITTEXT        IDC_KILLER1,10,50,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLER2,10,75,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLER3,10,100,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLER4,10,125,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLED1,85,26,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLED2,145,25,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLED3,205,25,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILLED4,265,25,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL11,95,50,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL12,155,50,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL13,215,50,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL14,275,50,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL21,95,75,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL22,155,75,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL23,215,75,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL24,275,75,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL31,95,100,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL32,155,100,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL33,215,100,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL34,275,100,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL41,95,125,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL42,155,125,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL43,215,125,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_KILL44,275,125,35,10,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Killer",IDC_STATIC,5,15,65,125
+    GROUPBOX        "was killed",IDC_STATIC,80,15,245,30
+    GROUPBOX        "Accuracy of fire",IDC_STATIC,75,180,155,120
+    EDITTEXT        IDC_ACCFIRE1,186,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ACCFIRE2,186,231,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ACCFIRE3,186,256,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ACCFIRE4,186,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TOTALKILLS1,340,50,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLS2,340,75,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLS3,340,100,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLS4,340,125,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Total",IDC_STATIC,330,15,55,125
+    EDITTEXT        IDC_SHOTS1,86,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SHOTS2,86,231,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SHOTS3,86,256,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SHOTS4,86,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FIRE1,10,206,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FIRE2,10,232,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FIRE3,10,256,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FIRE4,10,282,55,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_HITS1,136,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_HITS2,136,231,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_HITS3,136,256,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_HITS4,136,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Shots",IDC_STATIC,81,190,45,105
+    GROUPBOX        "Hits",IDC_STATIC,131,190,45,105
+    GROUPBOX        "%",IDC_STATIC,181,190,45,105
+    GROUPBOX        "Player",IDC_STATIC,5,180,65,120
+    GROUPBOX        "Deaths",IDC_STATIC,235,180,45,120
+    GROUPBOX        "Frags",IDC_STATIC,285,180,45,120
+    EDITTEXT        IDC_DEATHS1,240,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FRAGS1,290,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DEATHS2,240,230,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DEATHS3,240,255,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DEATHS4,240,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FRAGS2,290,230,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FRAGS3,290,255,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FRAGS4,290,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SUICIDES1,340,206,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SUICIDES2,340,230,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SUICIDES3,340,255,35,10,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SUICIDES4,340,280,35,10,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Suicides",IDC_STATIC,335,180,45,120
+    GROUPBOX        "Total",IDC_STATIC,80,140,245,30
+    EDITTEXT        IDC_TOTALKILLED1,95,155,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLED2,155,155,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLED3,215,155,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TOTALKILLED4,275,155,35,10,ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung xswstatistic\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "xswstatistic\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "xswstatistic.EXE\0"
+            VALUE "ProductName", "Anwendung xswstatistic\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_XSWSTATISTIC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 390
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 299
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Inf&o über xswstatistic..."
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\xswstatistic.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

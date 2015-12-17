@@ -1,0 +1,233 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\keyboard.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\keyboard.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_KEYBOARD_DIALOG DIALOGEX 0, 0, 481, 194
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,347,174,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,405,174,50,14
+    PUSHBUTTON      "&A",IDC_A,5,10,25,15
+    PUSHBUTTON      "&B",IDC_B,5,30,25,15
+    PUSHBUTTON      "&C",IDC_C,5,50,25,15
+    PUSHBUTTON      "&D",IDC_D,5,70,25,15
+    PUSHBUTTON      "&E",IDC_E,5,90,25,15
+    PUSHBUTTON      "&F",IDC_F,5,110,25,15
+    PUSHBUTTON      "&G",IDC_G,5,130,25,15
+    PUSHBUTTON      "&H",IDC_H,5,150,25,15
+    PUSHBUTTON      "&I",IDC_I,5,170,25,15
+    PUSHBUTTON      "&J",IDC_J,165,10,25,15
+    PUSHBUTTON      "&K",IDC_K,165,30,25,15
+    PUSHBUTTON      "&L",IDC_L,165,50,25,15
+    PUSHBUTTON      "&M",IDC_M,165,70,25,15
+    PUSHBUTTON      "&N",IDC_N,165,90,25,15
+    PUSHBUTTON      "&O",IDC_O,165,110,25,15
+    PUSHBUTTON      "&P",IDC_P,165,130,25,15
+    PUSHBUTTON      "&Q",IDC_Q,165,150,25,15
+    PUSHBUTTON      "&R",IDC_R,165,170,25,15
+    PUSHBUTTON      "&W",IDC_W,312,87,25,15
+    PUSHBUTTON      "&T",IDC_T,312,27,25,15
+    PUSHBUTTON      "&U",IDC_U,312,47,25,15
+    PUSHBUTTON      "&V",IDC_V,312,67,25,15
+    PUSHBUTTON      "&S",IDC_S,312,7,25,15
+    PUSHBUTTON      "&X",IDC_X,312,107,25,15
+    PUSHBUTTON      "&Y",IDC_Y,312,127,25,15
+    PUSHBUTTON      "&Z",IDC_Z,312,147,25,15
+    EDITTEXT        IDC_EDIT1,40,10,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,40,30,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,40,50,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,40,70,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,40,90,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,40,110,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,40,130,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,40,150,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,40,170,105,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,195,10,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,195,30,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,195,50,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,195,70,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,195,90,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,195,110,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,195,130,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,195,150,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,195,170,97,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,347,7,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,347,27,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,347,47,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,347,67,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,347,87,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,347,107,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,347,127,108,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,347,147,108,15,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung keyboard\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "keyboard\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "keyboard.EXE\0"
+            VALUE "ProductName", "Anwendung keyboard\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_KEYBOARD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 474
+        VERTGUIDE, 40
+        VERTGUIDE, 145
+        VERTGUIDE, 195
+        VERTGUIDE, 292
+        VERTGUIDE, 312
+        VERTGUIDE, 347
+        VERTGUIDE, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\keyboard.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

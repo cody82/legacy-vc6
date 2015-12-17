@@ -1,0 +1,9 @@
+SkinSys Açýklama Dosyasý
+
+Tam açýklama için SkinSys.htm dosyasýna bakýn.
+
+Dikkat:
+    Skinsys kodlarýný kullanarak yazacaðýnýz programlarda 
+       Programýn Bir Bölümünün kopyalama hakkýnýn  Cüneyt ELÝBOL'a,
+       MP3 decoder arabirimi için programýn Bir Bölümünün kopyalama hakkýnýn Eldos.Org a 
+ait olduðunu belirtmeniz gerekir.

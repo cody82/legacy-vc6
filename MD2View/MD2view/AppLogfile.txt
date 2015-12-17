@@ -1,0 +1,10 @@
+MD2 View Logfile
+
+ CMyD3DApplication::OneTimeSceneInit()
+ CMD2::LoadMD2Model - Loading :  malignus.md2
+ CMD2::LoadMD2Model - loaded  malignus.bmp
+ CMyD3DApplication::InitDeviceObjects()
+ DisplayCredits
+ DisplayCredits
+ DisplayCredits
+ CMyD3DApplication::DeleteDeviceObjects
